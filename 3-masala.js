@@ -5,7 +5,7 @@ function isLeapYear(year) {
       result = true
     }
 
-    if(year % 400 != 0) {
+    else if(year % 400 != 0) {
       result = false
     }
     else {
